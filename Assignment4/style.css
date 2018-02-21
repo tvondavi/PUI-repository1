@@ -10,8 +10,9 @@ html,body {
 .background {
 	background-color: #9dc3f9;
 	background-size: cover;
-	height: 800px;
+	height: 850px;
 	width: 100%;
+	position: absolute;
 }
 
 nav {
@@ -65,4 +66,149 @@ header {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.section1 {
+	margin: auto;
+	padding: auto;
+	position: relative;
+	width: 25%;
+	height: 15%;
+	float: left;
+}
+
+.section1 img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h3{
+	color: #36454f;
+	text-decoration: underline;
+	position: relative;
+	text-align: center;
+}
+
+.section1 p{
+	color: #36454f;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.section2 {
+	margin: auto;
+	padding: auto;
+	position: relative;
+	width: 25%;
+	height: 15%;
+	float: left;
+}
+
+.section2 img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.section2 p{
+	color: #36454f;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.section3 {
+	position: relative;
+	width: 25%;
+	height: auto;
+	float: left;
+}
+
+.section3 img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.section3 p{
+	color: #36454f;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.section4 {
+	position: relative;
+	width: 25%;
+	height: auto;
+	float: left;
+}
+
+.section4 img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.section4 p{
+	color: #36454f;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.section5 {
+	position: relative;
+	width: 50%;
+	top: 15%;
+	float: left;
+	clear: left;
+}
+
+.section5 img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.section5 p{
+	color: #36454f;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.section6 {
+	position: relative;
+	width: 50%;
+	top: 15%;
+	float: left;
+	clear: none;
+}
+
+.section6 img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.section6 p{
+	color: #36454f;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
