@@ -212,3 +212,103 @@ h3{
 	margin-right: auto;
 	text-align: center;
 }
+
+.board {
+	position: relative;
+	width: 33%;
+	top: 5%;
+	float: left;
+}
+
+.board2 {
+	position: relative;
+	width: 33%;
+	top: 5%;
+	float: left;
+}
+
+.board3 {
+	position: relative;
+	width: 33%;
+	top: 5%;
+	float: left;
+}
+
+.board img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.board2 img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.board3 img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.text {
+	position: relative;
+	float: center;
+	clear: left;
+	top: 15%;
+	color: #36454f;
+	font-size: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.builder {
+	position: relative;
+	display: inline-block;
+	top: 20%;
+	float: left;
+	width: auto;
+}
+
+.builder p{
+	text-align: left;
+	color: #36454f;
+	display: inline;
+	position: relative;
+}
+
+.builder textarea{
+	position: relative;
+	width: 10%;
+	height: 15px;
+}
+
+.button1 {
+	position: absolute;
+	display: block;
+	top: 53%;
+	right: 25%;
+	width: auto;
+}
+
+button{
+	background-color: #f99dc3;
+	box-shadow: #36454f;
+}
+
+.button2 {
+	position: absolute;
+	display: block;
+	top: 57%;
+	right: 26.5%;
+	width: auto;
+	height: auto;
+}
