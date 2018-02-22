@@ -40,7 +40,7 @@ header {
 	background-color: #f99dc3;
 	margin: 0;
 	padding: 0;
-	height: 150px;
+	height: 150px; 
 }
 
 .container {
@@ -61,11 +61,14 @@ header {
 .container h1{
 	position: absolute;
 	color: #f99dc3;
-	font-size: 64px;
+	font-size: 75px;
+	letter-spacing: 1.5px;
 	margin: auto;
-	top: 50%;
+	top: 35%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	font-family: 'Brush Script MT', cursive;
+	text-shadow: 3px 10px black;
 }
 
 .section1 {
@@ -97,6 +100,7 @@ h3{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
 }
 
 .section2 {
@@ -121,6 +125,7 @@ h3{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	font-family: 'Raleway', sans-serif
 }
 
 .section3 {
@@ -143,6 +148,7 @@ h3{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	font-family: 'Raleway', sans-serif
 }
 
 .section4 {
@@ -150,6 +156,10 @@ h3{
 	width: 25%;
 	height: auto;
 	float: left;
+}
+
+.section4 a{
+	text-decoration: none;
 }
 
 .section4 img{
@@ -165,6 +175,7 @@ h3{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	font-family: 'Raleway', sans-serif
 }
 
 .section5 {
@@ -188,6 +199,7 @@ h3{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	font-family: 'Raleway', sans-serif
 }
 
 .section6 {
@@ -211,6 +223,7 @@ h3{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	font-family: 'Raleway', sans-serif
 }
 
 .board {
@@ -268,6 +281,7 @@ h3{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	font-family: 'Raleway', sans-serif
 }
 
 .builder {
@@ -283,6 +297,7 @@ h3{
 	color: #36454f;
 	display: inline;
 	position: relative;
+	font-family: 'Raleway', sans-serif
 }
 
 .builder textarea{
@@ -291,24 +306,27 @@ h3{
 	height: 15px;
 }
 
-.button1 {
+.button {
 	position: absolute;
 	display: block;
 	top: 53%;
-	right: 25%;
+	right: 15%;
 	width: auto;
 }
 
 button{
 	background-color: #f99dc3;
-	box-shadow: #36454f;
+	box-shadow: 0 8px 16px 0 #36454f;
+	border: none;
+	text-align: center;
+	padding: 16px 32px;
+	display: inline-block;
+	font-size: 18px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Raleway', sans-serif
 }
 
-.button2 {
-	position: absolute;
-	display: block;
-	top: 57%;
-	right: 26.5%;
-	width: auto;
-	height: auto;
+button:active{
+	transform: translateY(3px);
 }
