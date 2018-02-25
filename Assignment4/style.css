@@ -324,9 +324,35 @@ button{
 	font-size: 18px;
 	margin-left: 10px;
 	margin-right: 10px;
-	font-family: 'Raleway', sans-serif
+	font-family: 'Raleway', sans-serif;
 }
 
 button:active{
 	transform: translateY(3px);
+}
+
+.hours{
+	margin-top: 10%;
+}
+
+.hours h3{
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+.hours p{
+	font-family: 'Raleway', sans-serif;
+	margin-left: 25%;
+	margin-right: 75%;
+	width: 50%;
+	text-align: center;
+}
+
+.message {
+	margin-left: 40%;
+	margin-right: 60%;
+	margin-top: 15%;
+	width: 20%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
 }
