@@ -356,3 +356,49 @@ button:active{
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 }
+
+.section7 {
+    position: relative;
+	width: 25%;
+	height: auto;
+	float: left;
+}
+
+.section7 img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.section7 p{
+	color: #36454f;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: 'Raleway', sans-serif
+}
+
+.section8 {
+	position: relative;
+	width: 25%;
+	height: auto;
+	float: left;
+}
+
+.section8 img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.section8 p{
+	color: #36454f;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: 'Raleway', sans-serif
+}
