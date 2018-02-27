@@ -1,0 +1,16 @@
+#background{
+	background-color: green;
+	height: 820px;
+}
+
+#background h1{
+	margin-left: 25%;
+	text-align: center;
+	width: 50%;
+}
+
+#application {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
