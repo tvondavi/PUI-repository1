@@ -1,0 +1,42 @@
+#background{
+	background-color: green;
+	height: 820px;
+}
+
+#background h1{
+	margin-left: 25%;
+	text-align: center;
+	width: 50%;
+}
+
+#image {
+	max-height: 500px;
+	max-width: 500px;
+}
+
+#application {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+#save {
+    background-color: #FF8700;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 #cccccc, 0 6px 20px 0 #cccccc;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+#message {
+	margin-left: 25%;
+	margin-right: 75%;
+	text-align: center;
+	width: 50%;
+}
