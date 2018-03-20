@@ -1,27 +1,39 @@
-var x = document.getElementsByClassName("glaze");
-
-
 $(document).ready(function(){
-    $('.glaze').change(function(){
-         localStorage.setItem('selectedBuns', $(this).val());
-         $('.glaze').value(localStorage.getItem('selectedBuns'));
-    });
-});
 
-if (localStorage.getItem('selectedBuns') === null) { 
-                localStorage.setItem('selectedBuns', "0");
-                console.log("0 Buns"); 
-            }
-            else {
-                if (localStorage.getItem('selectedBuns') === "0") { 
-                    console.log("0 Buns"); 
-                } else if (localStorage.getItem('selectedBuns') === "1") { 
-                    console.log("1 Bun"); 
-                } else if (localStorage.getItem('selectedBuns') === "3") { 
-                    console.log("3 Buns"); 
-                } else if (localStorage.getItem('selectedBuns') === "6") { 
-                    console.log("6 Buns"); 
-                } else if (localStorage.getItem('selectedBuns') === "12") { 
-                    console.log("12 Buns"); 
-                }
-            }
+//I created an empty object that will be manipulated later 
+    var bun = [];
+
+    $('#noGlaze').change(function(){
+        //I declared a new variable to organize the information
+        var noGlaze = { glaze: "none", number: $(this).val() };
+        //Add the new variable to the empty object
+        bun.push(noGlaze);
+        //Some console logging and testing to make sure I don't screw up
+        console.log(bun);
+        //Save the now filled object in local storage for page manipulation
+        localStorage.setItem("buns", JSON.stringify(bun));
+        //I did the above things for all of the drop down bars
+    });
+    $('#sugarMilk').change(function(){
+    	var sugarMilk = { glaze: "sugarMilk", number: $(this).val() };
+        bun.push(sugarMilk);
+        console.log(bun);
+        localStorage.setItem("buns", JSON.stringify(bun));
+    });
+    $('#vanillaMilk').change(function(){
+    	var vanillaMilk = { glaze: "vanillaMilk", number: $(this).val() };
+        bun.push(vanillaMilk);
+        console.log(bun);
+        localStorage.setItem("buns", JSON.stringify(bun));
+    });
+    $('#doubleChocoloate').change(function(){
+    	var doubleChocoloate = { glaze: "doubleChocoloate", number: $(this).val() };
+        bun.push(doubleChocoloate);
+        console.log(bun);
+        localStorage.setItem("buns", JSON.stringify(bun));
+    });
+    
+    $("#checkout").onclick(function() {
+    	
+    }
+});
