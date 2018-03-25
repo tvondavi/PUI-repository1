@@ -271,7 +271,7 @@ h3{
 	margin-left: auto;
 }
 
-.text {
+#text {
 	position: relative;
 	float: center;
 	clear: left;
@@ -348,7 +348,7 @@ button:active{
 	text-align: center;
 }
 
-.message {
+#message {
 	margin-left: 40%;
 	margin-right: 60%;
 	margin-top: 15%;
