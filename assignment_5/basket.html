@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>Bun Bun Bakery</title>
-	<link type="text/css" rel="stylesheet" href="Assets/style.css">
+	<link type="text/css" rel="stylesheet" href="Assets/CSS/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="basket_page.js"></script>
+    <script type="text/javascript" src="Assets/javascript/basket_page.js"></script>
 </head>
 
 <body> 
@@ -24,10 +24,27 @@
     <div class="background">
     <!--this is where the items for purchase will appear-->    
         <div id="purchase">
-            <img id="bun_Image1" src=""><p id="bun_Description1"></p><p id="price1"></p>
-            <img id="bun_Image2" src=""><p id="bun_Description2"></p><p id="price2"></p>
-            <img id="bun_Image3" src=""><p id="bun_Description3"></p><p id="price3"></p>
-            <img id="bun_Image4" src=""><p id="bun_Description4"></p><p id="price4"></p>
+        <!--One div for each type of item-->
+            <div id="bun1">
+                <img id="bun_Image1" src=""><p id="bun_Description1"></p><p id="price1"></p>
+                <button id="remove1">X</button>
+            </div>
+        <!--One div for each type of item-->
+            <div id="bun2">
+                <img id="bun_Image2" src=""><p id="bun_Description2"></p><p id="price2"></p>
+                <button id="remove2">X</button>
+            </div>
+        <!--One div for each type of item-->
+            <div id="bun3"> 
+                <img id="bun_Image3" src=""><p id="bun_Description3"></p><p id="price3"></p>
+                <button id="remove3">X</button>
+            </div>
+        <!--One div for each type of item-->    
+            <div id="bun4">    
+                <img id="bun_Image4" src=""><p id="bun_Description4"></p><p id="price4"></p>
+                <button id="remove4">X</button>
+            </div>
+        
         </div>
 
         <div class="button">

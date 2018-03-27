@@ -29,19 +29,20 @@ $(document).ready(function(){
         localStorage.setItem("buns", JSON.stringify(bun));
         $('#text').append("You have selected " + $(this).val() + " buns with vanilla milk glaze.");
     });
-    $('#doubleChocoloate').change(function(){
-    	var doubleChocoloate = { glaze: "doubleChocoloate", number: $(this).val() };
-        bun.push(doubleChocoloate);
+    $('#doubleChocolate').change(function(){
+    	var doubleChocolate = { glaze: "doubleChocolate", number: $(this).val() };
+        bun.push(doubleChocolate);
         console.log(bun);
         localStorage.setItem("buns", JSON.stringify(bun));
         $('#text').append("You have selected " + $(this).val() + " buns with double chocolate glaze.");
     });
     
+    //Functionality for the button
     $('#checkout').click(function() {
         //check to see if there is something stored in localStorage
         if (localStorage.getItem("buns") !== null){
         	//Updates the basket list item when the user clicks on the add to basket button
-            var dummy = localStorage.length;
+            var dummy = bun.length;
          	$('#notification').append("(" + dummy + ")");
         }
     });
