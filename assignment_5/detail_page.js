@@ -41,12 +41,8 @@ $(document).ready(function(){
         //check to see if there is something stored in localStorage
         if (localStorage.getItem("buns") !== null){
         	//Updates the basket list item when the user clicks on the add to basket button
-        	$('#notification').append(" (!)");
-
-        	$("#purchase").html(JSON.parse(bun));
-        }
-        else {
-        	$('#message').append("You don't have any buns in your basket!");
+            var dummy = localStorage.length;
+         	$('#notification').append("(" + dummy + ")");
         }
     });
 });

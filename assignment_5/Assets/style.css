@@ -400,5 +400,36 @@ button:active{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	font-family: 'Raleway', sans-serif
+	font-family: 'Raleway', sans-serif;
+}
+
+#purchase {
+	position: relative;
+	height: 15%;
+	width: auto;
+}
+
+#bun_Image {
+	display: block;
+	margin-left: 5%;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+#bun_Description {
+	color: #36454f;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+}
+
+#price {
+    color: #36454f;
+	margin-left: auto;
+	margin-right: 30%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	float: right;	
 }
