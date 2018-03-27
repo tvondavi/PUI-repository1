@@ -53,9 +53,21 @@ $(document).ready(function(){
 	
 	createBun();
     
-    for (var i = 0; i < newBuns.length; i ++){
-        $('.bun_Description').text("You have selected " + newBuns[i].number + " bun(s) with " + newBuns[i].glaze + " style glaze.");
-        $('.bun_Image').attr("src", newBuns[i].image);
-        $('.price').text("Price: $" + (1.50 * newBuns[i].number));
-    }
+    $('#bun_Description1').text("You have selected " + newBuns[0].number + " bun(s) with " + newBuns[0].glaze + " style glaze.");
+    $('#bun_Image1').attr("src", newBuns[0].image);
+    $('#price1').text("Price: $" + (1.50 * newBuns[0].number));
+
+    $('#bun_Description2').text("You have selected " + newBuns[1].number + " bun(s) with " + newBuns[1].glaze + " style glaze.");
+    $('#bun_Image2').attr("src", newBuns[1].image);
+    $('#price2').text("Price: $" + (1.50 * newBuns[1].number));
+
+    $('#bun_Description3').text("You have selected " + newBuns[2].number + " bun(s) with " + newBuns[2].glaze + " style glaze.");
+    $('#bun_Image3').attr("src", newBuns[2].image);
+    $('#price3').text("Price: $" + (1.50 * newBuns[2].number));
+
+    $('#bun_Description4').text("You have selected " + newBuns[3].number + " bun(s) with " + newBuns[3].glaze + " style glaze.");
+    $('#bun_Image4').attr("src", newBuns[3].image);
+    $('#price4').text("Price: $" + (1.50 * newBuns[3].number));
+
+    
 });
