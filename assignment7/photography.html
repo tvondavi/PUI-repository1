@@ -6,6 +6,8 @@
     <link href="Assets/port_style.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="Assets/libraries/instafeed.js-master/instafeed.min.js"></script>
+    <link rel="stylesheet" href="Assets/libraries/aos-master/dist/aos.css" />
+    <script type= "text/javascript" src="Assets/libraries/aos-master/dist/aos.js"></script>
     <script type="text/javascript" src="Assets/photography.js"></script>
 </head>
 
@@ -25,16 +27,33 @@
         </div>
     </div>
 <!--  consistent picture on all pages-->
-<div id="background">  
-    <div id="content">
-        <h1 id="title">Travel Photography</h1>
-        <img src="Assets/images/selfie.jpg">
-        <p>I had the immense privilege of growing up traveling the world with my parents. Overtime I began to slowly capture the beauty around. These are some of my photographs that capture my perspective of the world.</p>
-        <img src="Assets/images/koln.jpg">
-        <p>This image is of my recent trip to Koln (Cologne), Germany. I attended a conference (discussed in the Current Work section), and enjoyed the many museums and restaurants throughout the city. It was only a single part of a longer trip throughout Europe. Below is a collection of my travel photographs in order of recency.</p>
-        <div id="instafeed"></div>
+    <div id="background">  
+        <div data-aos="zoom-in-up">
+            <h1 id="title">Travel Photography</h1>
+        </div>
+        <div id="topBar">
+            <div data-aos="fade-left">
+                <img id="selfie" src="Assets/images/selfie.jpg">
+            </div> 
+            <div data-aos="fade-right">
+                <p id="description">I had the immense privilege of growing up traveling the world with my parents. Overtime I began to slowly capture the beauty around. These are some of my photographs that capture my perspective of the world.</p>
+            </div>
+        </div>
+        <div id="middleBar">
+            <div data-aos="fade-right">
+                <img id="koln" src="Assets/images/koln.jpg">
+            </div>
+            <div data-aos="fade-left">
+                <p id="introduction">This image is of my recent trip to Koln (Cologne), Germany. I attended a conference (discussed in the Current Work section), and enjoyed the many museums and restaurants throughout the city. It was only a single part of a longer trip throughout Europe. Below is a collection of my travel photographs in order of recency.</p>
+            </div>
+        </div>
+        <div id="bottomBar">
+            <div data-aos="fade-right">
+                <p id="explanation">Feel free to click on any of the photographs and find them on my Instagram page.</p>
+            </div>
+            <div data-aos="fade-left" id="instafeed"></div>
+        </div>
     </div>
-</div>
 
 </body>
 </html>
