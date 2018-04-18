@@ -1,6 +1,16 @@
-html,body{
+
+/*THE MAJOIRTY OF THIS IS OLD CODE FROM MY FIRST WEBSITE, SCROLL DOWN FOR THE NEW CODE FOR ASSIGNMENT7*/
+
+html{
 	margin: 0 0;
 	padding: 0 0;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	min-height: 100%;
+	min-width: 100%;
 }
 
 .container {
@@ -10,6 +20,7 @@ html,body{
 
 .header {
 	background-color: #333;
+	width: 100%;
 }
 
 .nav {
@@ -309,43 +320,328 @@ a{
     text-align: center;
     text-decoration: underline;
 }
-.asection {
+#asection {
 	background-size: cover;
-	height: 800px;
+	height: 100%;
 	width: 100%;
 	display: inline-block;
 	vertical-align: top;
 	background: url(images/Flower_opaque.JPG) no-repeat center center;
+	position: absolute;
 }
 
 
-input[type=text], select, textarea {
+/*This is the new style code for the new pages I added to my website and portfolio*/
+#topLeft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+
+#topRight {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 50%;
+}
+
+#bottomLeft{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 50%;
+	height: 50%;
+}
+
+#bottomRight{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+}
+
+#design{
+    height: 100%;
     width: 100%;
-    padding: 12px; 
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    font-family: 'Raleway', sans-serif;
-	font-color: #fff;
-	font-weight: 600;
-	font-size: 14px;
+    position: absolute;
 }
 
-label{
-	font-family: 'Raleway', sans-serif;
-	color: #fff;
-	font-weight: 600;
-	font-size: 14px;
+#research{
+	position: absolute;
+	height: 100%;
+	width: 100%;
 }
 
-input[type=submit]{
-	background-color: #333;
-	color: #fff;
-	padding: 15px 20px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
+#games{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#photos{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#designLabel{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 50px;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	margin-bottom: 0;
+	color: #ffffff;
+}
+
+#researchLabel{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 50px;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	margin-bottom: 0;
+	color: #ffffff;
+}
+
+#gamesLabel{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 50px;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	margin-top: 0;
+	color: #ffffff;
+}
+
+#photosLabel{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 50px;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	margin-top: 0;
+	color: #ffffff;
+}
+
+/*This is where the portfolio page styling ends*/
+
+/*This is when the photography page style begins*/
+
+#background{
+	margin-top: 0;
+    background-color: #cccccc;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+
+#title{
+	text-align: center;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-shadow: 5px 5px #fff;
+}
+
+#topBar{
+	position: relative;
+	height: 80%;
+	width: 100%;
+}
+
+#middleBar{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: #cccccc;
+}
+
+
+#bottomBar{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #cccccc;
+}
+
+#instafeed{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 0;
+    top: 0;
+}
+
+#explanation{
+	font-family: 'Raleway', 'Arial', sans-serif;
+	left: 0;
+	text-align: center;
+	font-size: 32px;
+	width: 50%;
+    position: relative;
+	top: 25%;
+}
+
+#description{
+	font-family: 'Raleway', 'Arial', sans-serif;
+	left: 0;
+	text-align: center;
+	font-size: 32px;
+	width: 50%;
+}
+
+#introduction{
+	font-family: 'Raleway', 'Arial', sans-serif;
+	float: right;
+	text-align: center;
+	font-size: 32px;
+	width: 50%;
+}
+
+#selfie{
+	height: 500px;
+	width: 500px;
+	position: absolute;
+	right: 5%;
+}
+
+#koln{
+	height: 500px;
+	width: 500px;
+    position: absolute;
+    left: 5%;
+}
+
+/*Photography page style ends here*/
+
+/*Design page styling begins here*/
+
+#designProjects{
+	position: absolute;
+	left: 0;
+	width: 50%;
+	height: 100%;
+}
+
+#heading{
+	position: relative;
+	top: 25%;
+	width: 100%;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-shadow: 5px 5px #fff;
+}
+
+#list{
+	position: relative;
+	top: 25%;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size: 28px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #fff;
+	list-style-type: none;
+}
+
+#listItem1{
+	margin-bottom: 25px;
+	width: 75%;
+}
+
+#listItem2{
+	width: 75%;
+}
+
+#imageBox{
+	position: absolute;
+	right: 0;
+	width: 50%;
+	height: 100%;
+}
+
+#designImage{
+	position: relative;
+	width: 100%;
+	height: 50%;
+	top: 10%;
+}
+
+/*End of Design Page styling*/
+
+/*Beginning of Research styling*/
+
+#researchBox{
+	position: absolute;
+	left: 0;
+	width: 50%;
+	height: 100%;
+}
+
+#researchProjects{
+	position: absolute;
+	right: 0;
+	width: 50%;
+	height: 100%;
+}
+
+#listItem3{
+	width: 75%;
+	margin-top: 25px;
+}
+
+#researchImage{
+	position: relative;
+	width: 100%;
+	height: 50%;
+	top: 10%;
+}
+
+#heading2{
+	position: relative;
+	top: 25%;
+	width: 100%;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-shadow: 5px 5px #fff;
+	text-align: right;
+	right: 5%;
+}
+
+#list2{
+	position: relative;
+	top: 25%;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size: 28px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #fff;
+	list-style-type: none;
+	text-align: right;
+	left: 5%;
+}
+
+/*End of Research Styling*/
+
+/*Beginning of Games page styling*/
+
+
+#gameProjects{
+	position: absolute;
+	left: 0;
+	width: 50%;
+	height: 100%;
+}
+
+#gameImage{
+	position: relative;
+	width: 100%;
+	height: 50%;
+	top: 10%;
 }
