@@ -8,4 +8,7 @@ $(document).ready(function(){
 	$("#listItem3").mouseover(function(){
 		$("#researchImage").attr("src", "Assets/images/conferences.jpg");
 	});
+
+	AOS.init();
+	window.addEventListener('load', AOS.refresh);
 });

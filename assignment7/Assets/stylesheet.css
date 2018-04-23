@@ -550,6 +550,11 @@ a{
 	list-style-type: none;
 }
 
+#list a{
+	color: black;
+	text-decoration: none;
+}
+
 #listItem1{
 	margin-bottom: 25px;
 	width: 75%;
@@ -644,4 +649,337 @@ a{
 	width: 100%;
 	height: 50%;
 	top: 10%;
+}
+
+/*End of Games page styling*/
+
+/*Start of Detail Page styling for Bun Bun*/
+
+#image-module{
+    will-change: transform;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    height: 100vh;
+    background-image: url(images/cover.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	max-width: none;
+}
+
+#backdrop{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#image-module h1{
+	text-align: center;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	position: relative;
+	top: 40%;
+	text-shadow: 3px 3px #e8a2b3;
+}
+
+
+#overview{
+	position: relative;
+	width: 100%;
+	height: 50%;
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+#overTitle{
+	max-width: 38em;
+	margin-bottom: 1em;
+	position: relative;
+	font-size: 1.75em;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	text-transform: uppercase;
+}
+
+#overContent{
+	max-width: 34em;
+	width: 100%;
+	margin-left: auto;
+	font-size: 1.125em;
+	line-height: 1.555;
+	font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+#palette{
+	position: relative;
+	width: 100%;
+	height: 50%;
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+#process{
+	position: relative;
+	width: 100%;
+	height: 50%;
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+#external{
+	position: relative;
+	width: 100%;
+	height: 50%;
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+#palette h3{
+	text-align: left;
+    max-width: 38em;
+	margin-bottom: 1em;
+	position: relative;
+	font-size: 1.75em;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	text-transform: uppercase;
+}
+
+#color1{
+	position: relative;
+	width: 33%;
+	height: auto;
+	float: left;
+}
+
+#pink{
+	background-color: #e8a2b3;
+    display: block;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#color1 p{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+#color2{
+	position: relative;
+	width: 33%;
+	height: auto;
+	float: left;
+}
+
+#blue{
+	background-color: #9dc3f9;
+    display: block;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#color2 p{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+#color3{
+	position: relative;
+	width: 33%;
+	height: auto;
+	float: left;
+}
+
+#charcoal{
+    background-color: #6a6767;
+    display: block;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#color3 p{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+#process h4{
+	position: relative;
+	width: 19em;
+	height: auto;
+	float: left;
+	text-align: center;
+	margin: 0;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#display{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#h3{
+    max-width: 38em;
+	padding-bottom: 1em;
+	position: relative;
+	font-size: 1.75em;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+#processLabel{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+#processImage {
+	position: relative;
+	width: 50%;
+	height: 75%;
+	float: left;
+	left: 25%;
+}
+
+#external h3{
+    max-width: 38em;
+	margin-bottom: 1em;
+	position: relative;
+	font-size: 1.75em;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	text-transform: uppercase;
+}
+
+#invision{
+	position: relative;
+	width: 50%;
+	height: 100%;
+    float: left;
+}
+
+#invision a{
+   	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    float: left;
+    width: 100%;
+}
+
+#invision img{
+	width: 25%;
+	height: 25%;
+}
+
+#github{
+	position: relative;
+	width: 50%;
+	height: 100%;
+    float: right;
+}
+
+#github a{
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    float: right;
+    width: 100%;
+}
+
+#github img{
+	width: 25%;
+	height: 25%;
+}
+
+/*End of the Bun Bun design page*/
+
+/*Start of CMcube design page*/
+
+#cover-image{
+	will-change: transform;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    height: 100vh;
+    background-image: url("images/CMCube.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: none;
+}
+
+#cover-image h1{
+	font-size: 5rem;
+}
+
+.media{
+	margin: auto;
+}
+
+.media img{
+    width: 100px;
+    height: 100px;
+}
+
+#presentation{
+	position: relative;
+	width: 50%;
+	height: 100%;
+    float: right;
+}
+
+#presentation a{
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    float: right;
+    width: 100%;
+}
+
+#presentation img{
+	width: 100%;
+	height: 25%;
+}
+
+#posterPDF{
+	position: relative;
+	width: 50%;
+	height: 100%;
+    float: left;
+}
+
+#posterPDF a{
+   	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    float: left;
+    width: 100%;
+}
+
+#posterPDF img{
+	width: 50%;
+	height: 25%;
 }

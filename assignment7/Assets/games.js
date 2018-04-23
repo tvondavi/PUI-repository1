@@ -5,4 +5,7 @@ $(document).ready(function(){
 	$("#listItem2").mouseover(function(){
 		$("#gameImage").attr("src", "Assets/images/rolling_ball.jpg");
 	});
+
+	AOS.init();
+	window.addEventListener('load', AOS.refresh);
 });
