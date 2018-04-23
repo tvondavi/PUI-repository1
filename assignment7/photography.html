@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
 <!--navbar to navigate my website-->
     <div class="header">
         <div class="container">
@@ -26,34 +25,38 @@
             </ul>
         </div>
     </div>
-<!--  consistent picture on all pages-->
-    <div id="background">  
-        <div>
-            <h1 id="title">Travel Photography</h1>
-        </div>
-        <div id="topBar">
-            <div data-aos="fade-left">
-                <img id="selfie" src="Assets/images/selfie.jpg">
-            </div> 
-            <div data-aos="fade-right">
-                <p id="description">I had the immense privilege of growing up traveling the world with my parents. Overtime I began to slowly capture the beauty around. These are some of my photographs that capture my perspective of the world.</p>
-            </div>
-        </div>
-        <div id="middleBar">
-            <div data-aos="fade-right">
-                <img id="koln" src="Assets/images/koln.jpg">
-            </div>
-            <div data-aos="fade-left">
-                <p id="introduction">This image is of my recent trip to Koln (Cologne), Germany. I attended a conference (discussed in the Current Work section), and enjoyed the many museums and restaurants throughout the city. It was only a single part of a longer trip throughout Europe. Below is a collection of my travel photographs in order of recency.</p>
-            </div>
-        </div>
-        <div id="bottomBar">
-            <div data-aos="fade-right">
-                <p id="explanation">Feel free to click on any of the photographs and find them on my Instagram page.</p>
-            </div>
-            <div data-aos="fade-left" id="instafeed"></div>
-        </div>
+
+    <div id="photoBackground">
+        <div data-aos="fade-left" id="instafeed">
+            <h1>Travel Photography</h1> 
+        </div>   
     </div>
 
+    <div id="backdrop">
+        
+        <div data-aos="fade-up" id="overview">
+            <h3 id="overTitle">Welcome</h3>
+            <div id="overContent">
+                <p>I had the immense privilege of growing up traveling the world with my parents. Overtime I began to slowly capture the beauty around. These are some of my photographs that capture my perspective of the world. </p>
+                <p>The majority of the images are of my 2017 year in Europe. Over the summer, I attended a conference in Koln, Germany(discussed in the Current Work section), and enjoyed the many museums and restaurants throughout the city. It was the first stop in a longer trip throughout Europe.</p>
+                <p>Feel free to click on any of the photographs at the bottom of the page and find them on my Instagram page.</p>
+            </div>
+        </div>
+        
+        <div data-aos="fade-up" id="face">
+            <h3>The Photographer (Me)</h3>
+            <div>
+                <img id="selfie" src="Assets/images/selfie.jpg">
+            </div>
+        </div>
+
+        <div data-aos="fade-up" id="place">
+            <div id="display">
+                <h3 id="h3">First Stop: Koln</h3>
+                <img id="koln" src="Assets/images/koln.jpg">
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

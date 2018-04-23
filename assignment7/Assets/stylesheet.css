@@ -432,91 +432,87 @@ a{
 
 /*This is when the photography page style begins*/
 
-#background{
-	margin-top: 0;
-    background-color: #cccccc;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: visible;
-}
 
-
-#title{
-	text-align: center;
-	font-family: 'Raleway', 'Arial', sans-serif;
-	font-size: 50px;
-	text-transform: uppercase;
-	text-shadow: 5px 5px #fff;
-}
-
-#topBar{
-	position: relative;
-	height: 80%;
-	width: 100%;
-}
-
-#middleBar{
-	position: relative;
-	height: 100%;
-	width: 100%;
-	background-color: #cccccc;
-}
-
-
-#bottomBar{
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background-color: #cccccc;
+#photoBackground{
+	will-change: transform;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: none;
 }
 
 #instafeed{
     position: absolute;
     height: 100%;
-    width: 50%;
-    right: 0;
-    top: 0;
+    width: 100%;
+    left: 2em;
+    bottom: 15%;
 }
 
-#explanation{
-	font-family: 'Raleway', 'Arial', sans-serif;
-	left: 0;
+#instafeed h1{
 	text-align: center;
-	font-size: 32px;
-	width: 50%;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	position: relative;
+	top: 40%;
+	text-shadow: 3px 3px black;
+}
+
+#face{
+	position: relative;
+    width: 100%;
+    height: 75%;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+#face h3{
+	text-align: right;
+    max-width: 38em;
+    margin-bottom: 1em;
     position: relative;
-	top: 25%;
-}
-
-#description{
-	font-family: 'Raleway', 'Arial', sans-serif;
-	left: 0;
-	text-align: center;
-	font-size: 32px;
-	width: 50%;
-}
-
-#introduction{
-	font-family: 'Raleway', 'Arial', sans-serif;
-	float: right;
-	text-align: center;
-	font-size: 32px;
-	width: 50%;
+    font-size: 1.75em;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    text-transform: uppercase;
 }
 
 #selfie{
 	height: 500px;
 	width: 500px;
 	position: absolute;
-	right: 5%;
+	left: 5%;
 }
+
+#place{
+	position: relative;
+    width: 100%;
+    height: 50%;
+    max-width: 60rem;
+    margin: 10px auto;
+}
+
+#place h3{
+	max-width: 38em;
+    padding-bottom: 1em;
+    position: relative;
+    font-size: 1.75em;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
 
 #koln{
 	height: 500px;
 	width: 500px;
     position: absolute;
-    left: 5%;
+    right: 5%;
 }
 
 /*Photography page style ends here*/
