@@ -915,6 +915,27 @@ a{
 
 /*Start of CMcube design page*/
 
+.row{
+	list-style-type: none;
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.col{
+	color: #fff;
+	display: inline;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-weight: 600;
+    font-size: 12px;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+
+.col a{
+	color: #fff;
+}
+
 #cover-image{
 	will-change: transform;
     position: relative;
@@ -983,3 +1004,8 @@ a{
 	width: 50%;
 	height: 25%;
 }
+
+/*End of CMCube styling page*/
+
+/**/
+
